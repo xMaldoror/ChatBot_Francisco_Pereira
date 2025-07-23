@@ -18,9 +18,7 @@ def obter_resposta(texto: str) -> str:
         return f'São: {datetime.now():%H:%M} horas'
     if 'data' in comando:
         return f'Hoje é dia: {datetime.now():%d-%m-%Y}'
-    if comando == "O que sabes fazer?":
-        return "Posso conversar contigo, dizer as horas, a data e responder a perguntas simples."
-
+    
     return f'Desculpa, não entendi a questão! {texto}'
 
     # respostas = {
@@ -48,6 +46,7 @@ def chat() -> None:
     while True:
         user_input: str = input('Tu: ')
         resposta: str = obter_resposta(user_input)
+        print(f'Bot: {resposta}')
 
         if resposta == 'Gostei de falar contigo! Até breve...':
             break
