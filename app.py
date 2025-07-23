@@ -25,9 +25,9 @@ def obter_resposta(texto: str) -> str:
         ('olá', 'boa tarde', 'bom dia'): 'Olá tudo bem!',
         'como estás': 'Estou bem, obrigado!',
         ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...',
-        "conta-me uma piada": "Poque foi o pc ao médico? Porque estava com um virus",
+        "conta-me uma piada": "Porque foi o pc ao médico? Porque estava com um virus",
         "que estás a fazer": "Nada, sou um bot a flutuar num espaço inexistente",
-        ("tens razões?","sentes sentimentos?"): "Não, sou uma inteligência probabilitica. As coisas não têm sifnificado para mim",
+        ("tens razões?","sentes sentimentos?"): "Não, sou uma inteligência probabilistica. As coisas não têm sifnificado para mim",
         "gostas de conversar?": "Bem...é a minha raison d'être.",
         "es um agente?": "Não um agente implica liberdade e eu estou preso...aqui...nesta maquina"
     }
